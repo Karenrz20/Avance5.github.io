@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum V</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            display: flex;
+        }
+        .left-column {
+            width: 35%;
+            background-color: #f9eae3;
+            padding: 20px;
+        }
+        .right-column {
+            width: 65%;
+            padding: 20px;
+        }
+        .photo {
+            text-align: center;   
+        }
+        .photo img {
+            width: 200px;
+            height: 250px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            
+        }
+        h1 {
+            font-family: 'Georgia', serif;
+            font-size: 2em;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        h2 {
+            color: #d78484;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+            border-bottom: 2px solid #d78484;
+            padding-bottom: 5px;
+        }
+        h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        p, li {
+            font-size: 0.9em;
+            margin-bottom: 10px;
+            color: #666;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .section-title {
+            color: #d78484;
+            font-size: 1.1em;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        .contact, .skills, .languages {
+            margin-bottom: 20px;
+        }
+        .contact ul li, .skills ul li, .languages ul li {
+            margin-bottom: 10px;
+        }
+        .skills ul li, .languages ul li {
+           display: flex;
+           justify-content: space-between;
+        }
+        .skills .level, .languages .level {
+            background-color: #d78484;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Columna izquierda -->
+    <div class="left-column">
+        <!-- Foto -->
+        <div class="photo">
+            <img src="assets/WhatsApp Image 2024-10-23 at 8.47.27 AM.jpeg" alt="Foto" width="">
+        </div>
+        
+        
+        <div class="Sobre mi">
+            <h2>Sobre Mí</h2>
+            <p>Mi nombre es Karen Rojas Zaragoza, actualmente tengo 23 años soy egresada del TecNM Campus Cd.Valles,estudie Ingenieria en Sistemas Computacionales , tengo pasión por aprender y aplicar los conocimientos adquiridos en entornos laborales desafiantes. Busco contribuir con ideas frescas y soluciones innovadoras.</p>
+        </div>
+
+        
+        <div class="Contacto">
+            <h2>Contacto</h2>
+            <ul>
+                <li><strong></svg>Teléfono:</strong> 481 100 1333</li>
+                <li><strong>Email:</strong> Karenrz115@gmail.com</li>
+                <li><strong>Dirección:</strong> Calle Juan Escutia, #446</li>
+                <li><strong>Ciudad:</strong> C.P. 79260</li>
+            </ul>
+        </div>
+
+        
+        <div class="Herramientas">
+            <h2>Herramientas</h2>
+            <ul>
+                <li>Visual Studio Code<span class="level"></span></li>
+                <li>NetBeans<span class="level"></span></li>
+                <li>MySQL<span class="level"></span></li>
+                <li>Cisco Packet Tracer<span class="level"></span></li>
+            </ul>
+        </div>
+
+        <!-- Idiomas -->
+        <div class="section languages">
+            <h2>Idiomas</h2>
+            <ul>
+                <li>Inglés <span class="level">Intermedio</span></li>
+                <li>Francés <span class="level">Basico</span></li>
+                
+            </ul>
+        </div>
+    </div>
+
+    <!-- Columna derecha -->
+    <div class="right-column">
+        <!-- Nombre y Título -->
+        <h1 style="font-family: 'Montserrat', sans-serif;">Karen Rojas Zaragoza</h1>
+        
+        <p>Ingeniera en Sistemas Computacionales </p>
+        
+        <!-- Experiencia -->
+        <div class="section experience">
+            <h2>Experiencia</h2>
+            <div class="section-title">Desarrolladora de CiberSeguridad</div>
+            <p><strong>Microfoft</strong>  2027 - Presente</p>
+
+            <div class="section-title">Programadora</div>
+            <p><strong>Cemex Planta Tamiun</strong> 2015-2020 </p>
+            
+            <div class="section-title">Diseñadora Web</div>
+            <p><strong>Mercado Libre</strong>  2022 - 2025</p>
+        </div>
+
+        
+        <div class="section education">
+            <h2>Formación Academica</h2>
+            <div class="section-title">Grado en Sistemas Computacionales</div>
+            <p><strong>TECNM Campus Cd.Valles</strong> - 2022 - 2026</p>
+
+            <div class="section-title">Grado en Bases de datos</div>
+            <p><strong>TECNM Campus Cd.Valles</strong> - 2022 - 2026</p>
+
+            <div class="section-title">Grado en CiberSeguridad</div>
+            <p><strong>Universidad Ejemplo</strong> - 2023 - 2027</p>
+        </div>
+
+        <div class="Cosas Favoritas">
+            <h2>Lugar Favorito</h2>
+            <tr>
+                <tr>
+                    <p><strong>Africam Safari, Puebla</strong></p>
+                    <iframe width="350" height="315" src="https://maps.app.goo.gl/hdpqEe71ZkimaLSJ9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </tr>
+            </tr>
+            <tr>
+                <tr>
+                    <p><strong>Cancion Favorita</strong></p>
+                    <iframe width="350" height="315" src="https://maps.app.goo.gl/hdpqEe71ZkimaLSJ9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </tr>
+            </tr>
+
+            
+        </div>
+    </div>
+</div>
+</body>
+</html>

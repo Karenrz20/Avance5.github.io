@@ -1,0 +1,11 @@
+h1{
+    font-family: "Comic Sans Ms","Comic Sans",
+    sans-serif;
+}
+
+hr{
+    font-family: monospace;
+    background-color: #0074e8;
+    height: 5px;
+    border-width: 0px;
+}

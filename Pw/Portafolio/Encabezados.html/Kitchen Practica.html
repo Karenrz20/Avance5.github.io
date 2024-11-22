@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitchen Sink Practica</title>
+    <meta charset="utf-8">
+  <link rel="stylesheet" href="EstilosP.css">
+</head>
+<body>
+    <a href="index.html"> Ir a 🏡 </a>
+    <p>
+        <a href="Estilos.html">➡️Ir a Estilos</a>
+    </p>
+    <p>
+    <a href="Kitchen1.html">⬅️Regresar a Kitchen Ejercicio</a>
+
+</head>
+<body>
+    <h1>Practica Kitchen </h1>
+    <hr/ color="black">
+    <h2>Listas</h2>
+    <ul>
+        <li>Unordered List item one
+          <ul>
+            <li>Nested list item
+              <ul>
+                <li>Level 3, item one</li>
+                <li>Level 3, item two</li>
+                <li>Level 3, item three</li>
+                <li>Level 3, item four</li>
+              </ul>
+            </li>
+            <li>List item two</li>
+            <li>List item three</li>
+            <li>List item four</li>
+          </ul>
+        </li>
+        <li>List item two</li>
+        <li>List item three</li>
+        <li>List item four</li>
+      </ul>
+      <ol>
+        <li>List item one
+          <ol>
+            <li>List item one
+              <ol>
+                <li>List item one</li>
+                <li>List item two</li>
+                <li>List item three</li>
+                <li>List item four</li>
+              </ol>
+            </li>
+            <li>List item two</li>
+            <li>List item three</li>
+            <li>List item four</li>
+          </ol>
+        </li>
+        <li>List item two</li>
+        <li>List item three</li>
+        <li>List item four</li>
+      </ol>
+    
+      <hr/ color="black">
+      <h2>Tablas</h2>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Encabezado 1</th>
+            <th>Encabezado 2</th>
+            <th>Encabezado 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Fila 1, Columna 1</td>
+            <td>Fila 1, Columna 2</td>
+            <td>Fila 1, Columna 3</td>
+        </tr>
+        <tr>
+            <td>Fila 2, Columna 1</td>
+            <td>Fila 2, Columna 2</td>
+            <td>Fila 2, Columna 3</td>
+        </tr>
+        <tr>
+            <td>Fila 3, Columna 1</td>
+            <td>Fila 3, Columna 2</td>
+            <td>Fila 3, Columna 3</td>
+        </tr>
+    </tbody>
+</table>
+<hr/ color="black">
+
+<h2>Formularios</h2>
+
+<form action="#" method="post">
+  
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre">
+
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" placeholder="Ingresa tu correo">
+
+    
+    <label for="password">Contraseña:</label>
+    <input type="password" id="password" name="password">
+
+    <label for="pais">País:</label>
+    <select id="pais" name="pais">
+        <option value="mx">México</option>
+        <option value="us">Estados Unidos</option>
+        <option value="es">España</option>
+    </select>
+    <label><input type="checkbox" name="suscripcion" value="yes"> Solicitar Calificaciones</label>
+   
+    
+    <button type="reset">Limpiar</button>
+</form>
+<hr/ color="black">
+<h2>Párrafos</h2>
+
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</p>
+
+<p>
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+
+<p>
+    Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+</p>
+
+<p>
+    Curabitur sit amet mauris morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa.
+    Cras metus. Sed aliquet risus a tortor. Integer id quam.
+</p>
+
+<p>
+    Phasellus dolor. Maecenas vestibulum mollis diam. Pellentesque ut neque. Pellentesque habitant morbi tristique senectus et netus
+    et malesuada fames ac turpis egestas. Integer tincidunt. Cras dapibus.
+</p>
+<hr/ color="black">
+<h2>Formularios</h2>
+    <h2>Formulario con POST</h2>
+    <form method="POST" action="formularios.html"> 
+        <input type="text" name="Nombre" placeholder="Nombre" required>
+        <br>
+        <input type="text" name="Apellido1" placeholder="Apellido Paterno" required>
+        <br>
+        <input type="text" name="Apellido2" placeholder="Apellido Materno" required>
+        <br>
+        <br>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Name">
+        <br>
+        <input type="password" name="clave" placeholder="Contra de bot"/>
+        <br>
+        <input type="file" name="archivo"/>
+        <br>
+        <input type="checkbox" name="acepto"/>
+        <div>
+            <label for="masculino">
+            <input type="radio" id="masculino" name="genero" value="M" />
+            Masculino
+            </label>
+        </div>
+        <div>
+            <label for="femenino">
+                <input type="radio" id="femenino" name="genero" value="F" checked>
+                Femenino
+            </label>
+        </div>
+        <div>
+            <label for="no especificado">
+                <input type="radio" id="no especificado" name="genero" value="NE">
+                No especificado
+            </label>
+        </div>
+        <input type="hidden" name="folio"/>
+        <input type="email" name="correo" placeholder="Correo de bots"/>
+        <br>
+        <input type="url" name="página" placeholder="Pagina de bots"/>
+        <br>
+        <input type="number" name="numero" placeholder="Numero de bots"/>
+        <br>
+        <input type="range" name="rango"/>
+        <br>
+        <input type="date" name="fecha"/>
+        <br>
+        <input type="month" name="mes"/>
+        <br>
+        <input type="week" name="semana"/>
+        <br>
+        <input type="time" name="hora"/>
+        <br>
+        <input type="datetime-local" name="fecha y hora"/>
+        <br>
+        <input type="color" name="color"/>
+        <br>
+        <input type="search" name="búsqueda" placeholder="Busqueda de bot"/>
+        <br>
+        <input type="tel" name="teléfono" placeholder="Telefono de bots"/>
+        <br>
+        <br>
+        <textarea name="comentario" rows="4" cols="50">
+            Escribe aquí tu comentario...
+        </textarea>
+        <br>
+        <select name="pais">
+            <option value="MX" selected>Mexico</option>
+            <option value="US">Estados Unidos</option>
+            <option value="CA">Canada</option>
+        </select>
+        <br>
+        <select name="colores" multiple size="2">
+            <option value="Rojo" selected>Rojo</option>
+            <option value="Verde">Verde</option>
+            <option value="Azul">Azul</option>
+        </select>
+        <br>
+        <div>
+            <label for="colores">Colores</label>
+            <select name="Colores" id="colores">
+                <optgroup label="Colores Primarios">
+                    <option value="Rojo">rojo</option>
+                    <option value="Verde">Verde</option>
+                    <option value="Azul">Azul</option>
+                </optgroup>
+                <optgroup label="Colores Secundarios">
+                    <option value="Amarillo">Amarillo</option>
+                    <option value="Naranja">Naranja</option>
+                    <option value="Violeta">Violeta</option>
+                </optgroup>
+            </select>
+        </div>
+        <br>
+        <button type="submit">Enviar a matar los bots</button>
+        <button type="reset">Limpiar los bots</button>
+        <button type="button">Cancelar por bot</button>
+        <br>
+        </fieldset>
+    </form>
+    <!-- Componentes del formulario -->
+    <h2>Formulario con GET</h2>
+    <form method="GET" action="procesa.php">
+        <input type="text" name="Nombre" placeholder="Nombre" required>
+        <br>
+        <input type="text" name="Apellido1" placeholder="Apellido Paterno" required>
+        <br>
+        <input type="text" name="Apellido2" placeholder="Apellido Materno" required>
+    </form>
+    <hr/ color="black">
+    <h2>Objetos </h2>
+    
+
+    <table border="1">
+        <tr>
+            <th>Tipo</th>
+            <th>Ejemplo</th>
+        </tr>
+        <tbody>
+            <tr>
+                <td>PNG</td>
+                <td><img src="assets/kitty.png" width="200" loading="lazy" alt="Logo"></td>
+            </tr>
+            <tr>
+                <td>JPG</td>
+                <td><img src="assets/pooh.jpg" width="250" height="250" alt="Mario Bros"></td>
+            </tr>
+            <tr>
+                <td>SVG</td>
+                <td><img src="assets/luna.svg" width="250" height="250" alt="LOGO"></td>
+            </tr>
+        </tbody>
+    </table>
+    <hr/  color="black">
+    <h2>Formula</h2>
+    <p>
+        Una formula matematica como ax<sup>2</sup>+bx+c=0
+        o una formula quimica
+        H<sub>2</sub>0
+    </p>
+    <hr/  color="black">
+       <h2>Tablas</h2>     
+       <table>
+        
+        <tbody>
+          <tr>
+            <th>Person</th>
+            <th>Number</th>
+            <th>Third Column</th>
+          </tr>
+          <tr>
+            <td>Someone Lastname</td>
+            <td>900</td>
+            <td>Nullam quis risus eget urna mollis ornare vel eu leo.</td>
+          </tr>
+          <tr>
+            <td><a href="#">Person Name</a></td>
+            <td>1200</td>
+            <td>Vestibulum id ligula porta felis euismod semper. Donec ullamcorper nulla non metus auctor fringilla.</td>
+          </tr>
+          <tr>
+            <td>Another Person</td>
+            <td>1500</td>
+            <td>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit.</td>
+          </tr>
+          <tr>
+            <td>Last One</td>
+            <td>2800</td>
+            <td>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</td>
+          </tr>
+        </tbody>
+      </table>
+      <p id="table-summary">In the following table, characteristics are given in the second column, with the negative side in the left column and the positive side in the right column.</p>
+      <table aria-describedby="table-summary">
+        <caption>Characteristics with positive and negative sides</caption>
+        <thead>
+          <tr>
+            <th id="n">Negative</th>
+            <th>Characteristic</th>
+            <th id="p">Positive</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td headers="n r1">Sad</td>
+            <th id="r1">Mood</th>
+            <td headers="p r1">Happy</td>
+          </tr>
+          <tr>
+            <td headers="n r2">Failing</td>
+            <th id="r2">Grade</th>
+            <td headers="p r2">Passing</td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <caption>Complex table with a <code>thead</code>, multiple <code>tbody</code> elements, and a <code>tfoot</code>.</caption>
+        <thead>
+          <tr>
+            <th></th>
+            <th>2008</th>
+            <th>2007</th>
+            <th>2006</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Net sales</th>
+            <td>$32,479</td>
+            <td>$24,006</td>
+            <td>$19,315</td>
+          </tr>
+          <tr>
+            <th>Cost of sales</th>
+            <td>21,334</td>
+            <td>15,852</td>
+            <td>13,717</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <th>Gross margin</th>
+            <td>$11,145</td>
+            <td>$8,154</td>
+            <td>$5,598</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th>Gross margin percentage</th>
+            <td>34.3%</td>
+            <td>34.0%</td>
+            <td>29.0%</td>
+          </tr>
+        </tfoot>
+      </table>
+      <table>
+        <caption>A Table with <code>col</code> and <code>colgroup</code> of proto-indo-europeans languages and words.</caption>
+          <col />
+        <colgroup>
+          <col />
+          <col />
+          <col />
+          <col />
+        </colgroup>
+        <colgroup>
+          <col />
+          <col />
+          <col />
+          <col />
+        </colgroup>
+        <thead>
+          <tr>
+            <td></td>
+            <th colspan="4" id="germanic">Germanic</th>
+            <th colspan="4" id="italic">Italic</th>
+          </tr>
+          <tr>
+            <td></td>
+            <th colspan="2" id="north-germanic" headers="germanic">North Germanic</th>
+            <th colspan="2" id="west-germanic" headers="germanic">West Germanic</th>
+            <th colspan="4" id="latin" headers="italic">Latin</th>
+          </tr>
+          <tr>
+            <th id="modern-english">Modern English</th>
+            <th id="old-norse" headers="north-germanic germanic">Old Norse</th>
+            <th id="swedish" headers="north-germanic germanic">Swedish</th>
+            <th id="old-english" headers="west-germanic germanic">Old English</th>
+            <th id="old-dutch" headers="west-germanic germanic">Old Dutch</th>
+            <th id="french" headers="latin italic">French</th>
+            <th id="spanish" headers="latin italic">Spanish</th>
+            <th id="portuguese" headers="latin italic">Portuguese</th>
+            <th id="catalan" headers="latin italic">Catalan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th headers="modern-english" id="modern-english-no">No</th>
+            <td headers="modern-english-no germanic north-germanic old-norse">Nei</td>
+            <td headers="modern-english-no germanic north-germanic swedish">Nej</td>
+            <td headers="modern-english-no germanic west-germanic old-english">Ná</td>
+            <td headers="modern-english-no germanic west-germanic old-dutch">Nein</td>
+            <td headers="modern-english-no latin italic french">Non</td>
+            <td headers="modern-english-no latin italic spanish">No</td>
+            <td headers="modern-english-no latin italic portuguese">não</td>
+            <td headers="modern-english-no latin italic catalan">No</td>
+          </tr>
+          <tr>
+            <th headers="modern-english" id="modern-english-yes">Yes</th>
+            <td headers="modern-english-yes germanic north-germanic old-norse">já</td>
+            <td headers="modern-english-yes germanic north-germanic swedish">Ja</td>
+            <td headers="modern-english-yes germanic west-germanic old-english">Gea</td>
+            <td headers="modern-english-yes germanic west-germanic old-dutch">Ja</td>
+            <td headers="modern-english-yes latin italic french">Oui</td>
+            <td headers="modern-english-yes latin italic spanish">Si</td>
+            <td headers="modern-english-yes latin italic portuguese">sim</td>
+            <td headers="modern-english-yes latin italic catalan">sí</td>
+          </tr>
+          <tr>
+            <th headers="modern-english" id="modern-english-bear">Bear</th>
+            <td headers="modern-english-bear germanic north-germanic old-norse">Bjorn</td>
+            <td headers="modern-english-bear germanic north-germanic swedish">bjorn</td>
+            <td headers="modern-english-bear germanic west-germanic old-english">bera</td>
+            <td headers="modern-english-bear germanic west-germanic old-dutch">beer</td>
+            <td headers="modern-english-bear latin italic french">Ours</td>
+            <td headers="modern-english-bear latin italic spanish">Oso</td>
+            <td headers="modern-english-bear latin italic portuguese">Urso</td>
+            <td headers="modern-english-bear latin italic catalan">ós</td>
+          </tr>
+        </tbody>
+      </table>
+          <hr/ color="black">
+          <h2>Elementos</h2>
+          <p>Elements <code>audio</code>, <code>canvas</code>, <code>embed</code>,
+            <code>iframe</code>, <code>img</code>, <code>math</code>, <code>object</code>,
+            <code>picture</code>, <code>svg</code>, <code>video</code> make up the <em>embedded content</em> category.</p>
+        </header>
+        <p><code>audio</code>: <audio controls src="https://upload.wikimedia.org/wikipedia/commons/c/c7/What_hath_God_wrought.ogg"></audio> By Cqdx [<a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0 </a>], <a href="https://commons.wikimedia.org/wiki/File:What_hath_God_wrought.ogg">from Wikimedia Commons</a>.</p>
+        <p><code>iframe</code>: <iframe sandbox srcdoc="<h1>Sample Document</h1><p>This
+  is a sample content.</p>"></iframe></p>
+        <p><code>img</code>: <img src="http://placekitten.com/150/150 " alt="a kitten"></p>
+        <p><code>math</code>:</p>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mtable>
+  <mtr>
+  <mtd>
+  <mtext>Quadratic Equation</mtext>
+  </mtd>
+  <mtd>
+  <mrow>
+    <mi>x</mi>
+    <mo>=</mo>
+    <mfrac>
+      <mrow>
+        <mo>-</mo>
+        <mi>b</mi>
+        <mo>&#x00B1;</mo>
+        <msqrt>
+          <mrow>
+            <msubsup>
+              <mi>b</mi>
+              <mrow></mrow>
+              <mn>2</mn>
+            </msubsup>
+            <mo>-</mo>
+            <mn>4</mn>
+            <mi>a</mi>
+            <mi>c</mi>
+          </mrow>
+        </msqrt>
+      </mrow>
+      <mrow>
+        <mn>2</mn>
+        <mi>a</mi>
+      </mrow>
+    </mfrac>
+  </mrow>
+  </mtd>
+  </mtr>
+  </mtable>
+  </math>
+        <p><code>picture</code>:
+          <picture>
+            <source srcset="http://placekitten.com/240/300 2x,
+  http://placekitten.com/120/150 1x">
+            <img src="http://placekitten.com/120/150" alt="a kitten">
+          </picture>
+        </p>
+        <p><code>svg</code>: <svg role="presentation" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19.199 24C19.199 13.467
+  10.533 4.8 0 4.8V0c13.165 0 24 10.835 24 24h-4.801zM3.291
+  17.415c1.814 0 3.293 1.479 3.293 3.295 0 1.813-1.485 3.29-3.301
+  3.29C1.47 24 0 22.526 0 20.71s1.475-3.294 3.291-3.295zM15.909
+  24h-4.665c0-6.169-5.075-11.245-11.244-11.245V8.09c8.727 0 15.909
+  7.184 15.909 15.91z" /></svg></p>
+        <p><code>video</code>: <video controls src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Dwarf_hamsters_running_on_disc_2.ogv"></video></p>
+        <footer>
+          <p>See the <a target="_blank" href="https://www.w3.org/TR/html5/dom.html#embedded-content">Embedded Content spec.</a></p>
+        </footer>
+      </section>
+    </main>
+    <hr>
+    <footer role="contentinfo">
+      <p>This section serves as the <code>footer</code>.</p>
+      <p>Find this document on <a href="https://github.com/dbox/html5-kitchen-sink">GitHub</a>.</p>
+    </footer>
+    </section>
+    <hr/ color="black">
+    
+    <h2>Contenidos</h2>
+    <section id="parrafo" >
+        
+    <p>contenido 1</p>
+    <p>contenido 2</p>
+    <p>contenido 3</p>
+    <p>contenido 4</p>
+    <p>contenido 5</p>
+    <p>contenido 6</p>
+    <p>contenido 7</p> 
+    <hr/ color="black">
+
+    <h2>Encabezados</h2>
+    <section id="headings">
+        
+        <p>Elements <code>h1</code>, <code>h2</code>, <code>h3</code>, <code>h4</code>,
+          <code>h5</code>, <code>h6</code> make up the <em>heading content</em> category.
+        </p>
+        <hgroup>
+          <h1>h1 I am most important.</h1>
+          <h2>h2 Back in my quaint <a href='#'>garden</a></h2>
+          <h3>h3 Jaunty <a href='#'>zinnias</a> vie with flaunting phlox.</h3>
+          <h4>h4 Five or six big jet planes zoomed quickly by the new tower.</h4>
+          <h5>h5 Expect skilled signwriters to use many jazzy, quaint old alphabets effectively.</h5>
+          <h6>h6 Pack my box with five dozen liquor jugs.</h6>
+        </hgroup>
+        <hr/ color="black">
+        <section id="sections">
+            <header>
+              <h2>Mas elementos</h2>
+              <p>Elements <code>article</code>, <code>aside</code>, <code>nav</code>,
+                <code>section</code> make up the <em>sectioning content</em> category.
+              </p>
+              <nav>
+                <p>These links are contained in a <code>nav</code> element.</p>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+            </header>
+            <article>
+              <p>This paragraph is nested inside an <code>article</code> element. It contains many different, sometimes useful, <a href="http://www.w3schools.com/tags/">HTML5 elements</a>. Of course there are classics like <em>emphasis</em>, <strong>strong</strong>,
+                and <small>small</small> but there are many others as well. Hover the following text for abbreviation element: <abbr title="abbreviation">abbr</abbr>. You can define <del>deleted text</del> which often gets replaced with <ins>inserted</ins>          text.</p>
+              <div>
+                <dip>
+                  <p>You can also use <kbd>keyboard text</kbd>, which sometimes is styled similarly to the <code>&lt;code&gt;</code> or <samp>samp</samp> elements. Even more specifically, there is an element just for <var>variables</var>. Not to be mistaken with block
+                    quotes below, the quote element lets you denote something as <q>quoted text</q>. Lastly don't forget the sub (H<sub>2</sub>O) and sup (E = MC<sup>2</sup>) elements.</p>
+                
+              </div>
+              <section>
+                <p>This paragraph is contained in a <code>section</code> element of its parent <code>article</code> element.</p>
+                <p>↓ The following paragraph has the <code>hidden</code> attribute and should not be displayed. ↓</p>
+                <p hidden>→ You should not see this paragraph. ←</p>
+                <p>↑ The previous paragraph should not be displayed. ↑</p>
+              </section>
+            </article>
+            <aside>
+              <p>This is contained in an <code>aside</code> element.</p>
+
+        <hr/ color="black">
+        <h2>Tabla</h2>
+    <table border="i">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Ocupación</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana</td>
+                <td>25</td>
+                <td>Ingeniera</td>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td>30</td>
+                <td>Doctor</td>
+            </tr>
+            <tr>
+                <td>Lucía</td>
+                <td>28</td>
+                <td>Diseñadora</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr/ color="black">
+    <h2>Botones</h2>
+        <button class="btn-primary">Primario</button>
+        <button class="btn-secondary">Secundario</button>
+        <button class="btn-alert">Alerta</button>  
+
+<hr/ color="black">
+<h2>Menú de navegación</h2>
+<nav>
+    <ul>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#about">Acerca de</a></li>
+        <li><a href="#services">Servicios</a>
+            <ul>
+                <li><a href="#web">Desarrollo Web</a></li>
+                <li><a href="#design">Diseño</a></li>
+            </ul>
+        </li>
+        <li><a href="#contact">Contacto</a></li>
+    </ul>
+</nav>
+
+    <hr/ color="black">
+    <h2>Formulario de búsqueda</h2>
+<form>
+    <input type="search" id="search" name="search" placeholder="Buscar...">
+    <datalist id="suggestions">
+        <option value="HTML">
+        <option value="CSS">
+        <option value="JavaScript">
+        <option value="Python">
+        <option value="Java">
+    </datalist>
+    <button type="submit">Buscar</button>
+</form>
+        <hr/ color="black">
+    <h2>Progreso de tarea</h2>
+      <label for="file">Progreso de descarga:</label>
+        <progress id="file" value="70" max="100">70%</progress>
+                <hr/ color="black">
+                <h2>Alertas</h2>
+<div class="alert alert-success">¡Éxito! Operación completada.</div>
+<div class="alert alert-error">Error: Ocurrió un problema.</div>
+
+<style>
+    .alert {
+        padding: 15px;
+        margin-bottom: 20px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+    .alert-success {
+        background-color: #d4edda;
+        color: #155724;
+        border-color: #c3e6cb;
+    }
+    .alert-error {
+        background-color: #f8d7da;
+        color: #721c24;
+        border-color: #f5c6cb;
+    }
+</style>
+        <hr/ color="black">
+        <h2>Notificaciones</h2>
+<button onclick="showNotification()">Mostrar Notificación</button>
+<div id="notification" style="display:none;" class="notification">¡Esta es una notificación!</div>
+
+<script>
+    function showNotification() {
+        const notification = document.getElementById('notification');
+        notification.style.display = 'block';
+        setTimeout(() => {
+            notification.style.display = 'none';
+        }, 3000);
+    }
+</script>
+
+<style>
+    .notification {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        padding: 10px;
+        background-color: #008CBA;
+        color: white;
+        border-radius: 5px;
+    }
+</style>
+<hr/ color="black">
+<h2>Pestañas</h2>
+<div class="tabs">
+    <button class="tablink" onclick="openTab(event, 'Tab1')">Tab 1</button>
+    <button class="tablink" onclick="openTab(event, 'Tab2')">Tab 2</button>
+    <button class="tablink" onclick="openTab(event, 'Tab3')">Tab 3</button>
+</div>
+
+<div id="Tab1" class="tabcontent">
+    <h3>Pestaña 1</h3>
+    <p>Contenido de la pestaña 1.</p>
+</div>
+
+<div id="Tab2" class="tabcontent" style="display:none">
+    <h3>Pestaña 2</h3>
+    <p>Contenido de la pestaña 2.</p>
+</div>
+
+<div id="Tab3" class="tabcontent" style="display:none">
+    <h3>Pestaña 3</h3>
+    <p>Contenido de la pestaña 3.</p>
+</div>
+
+<script>
+    function openTab(evt, tabName) {
+        const tabcontent = document.getElementsByClassName("tabcontent");
+        for (let i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";  
+        }
+        const tablinks = document.getElementsByClassName("tablink");
+        for (let i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(tabName).style.display = "block";  
+        evt.currentTarget.className += " active";
+    }
+</script>
+<hr/ color="black">
+<h2>Acordeón</h2>
+<button class="accordion">Sección 1</button>
+<div class="panel">
+    <p>Contenido de la sección 1.</p>
+</div>
+
+<button class="accordion">Sección 2</button>
+<div class="panel">
+    <p>Contenido de la sección 2.</p>
+</div>
+
+<script>
+    const acc = document.getElementsByClassName("accordion");
+    for (let i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            const panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+</script>
+
+<style>
+    .panel {
+        display: none;
+        padding: 0 18px;
+        background-color: white;
+    }
+</style>
+
+
+
+</body>
+</html>
